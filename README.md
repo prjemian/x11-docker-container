@@ -8,6 +8,7 @@ several linux distributions.
 dockerhub image | status
 --- | ---
 [`alpine:latest`](https://hub.docker.com/_/alpine) | <font color="green">successful</font>
+[`archlinux:latest`](https://hub.docker.com/_/archlinux) | <font color="green">successful</font>
 [`centos:latest`](https://hub.docker.com/_/centos) | <font color="green">successful</font>
 [`debian:latest`](https://hub.docker.com/_/debian) | <font color="green">successful</font>
 [`fedora:latest`](https://hub.docker.com/_/fedora) | <font color="green">successful</font>
