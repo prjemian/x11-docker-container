@@ -2,10 +2,12 @@
 
 `x11-docker-container`
 
-Show how to run an X11 application (`xeyes`) from a docker container.
+Show how to run an X11 application ([`xeyes`](https://www.commandlinux.com/man-page/man1/xeyes.1.html)) from a docker container using
+several linux distributions.
 
-- debian
-- centos
-
-Could not do this with a [`redhat/ubi8`](https://hub.docker.com/r/redhat/ubi8)
-image since a subscription is required to access the `xorg-x11-apps` repository.
+dockerhub image | status
+--- | ---
+[`alpine:latest`](https://hub.docker.com/_/alpine) | <font color="green">successful</font>
+[`centos:latest`](https://hub.docker.com/_/centos) | <font color="green">successful</font>
+[`debian:latest`](https://hub.docker.com/_/debian) | <font color="green">successful</font>
+[`redhat/ubi8:latest`](https://hub.docker.com/r/redhat/ubi8) | <font color="red">fail: requires RHEL subscription</font>
